@@ -1,0 +1,10 @@
+<h1>Transcript: {{transcript.name}}</h1>
+
+<div class="picture">
+  {{transcript.image}}
+</div>
+<div class="data">
+  <text-field class="data-row" ng-repeat="field in transcript.fields" field="field"/>
+  <a href class="plus" ng-click="addField()">Plus</a>
+  <a href class="submit" ng-click="submit()">Submit</a>
+</div>

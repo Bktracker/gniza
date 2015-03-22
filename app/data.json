@@ -1,0 +1,12 @@
+{
+  "name": "test1",
+  "id": "test_id",
+  "image": "test image",
+  "fields": [{
+    "type": "text",
+    "text": "test text 1"
+  }, {
+    "type": "text",
+    "text": "test text 2"
+  }]
+}
